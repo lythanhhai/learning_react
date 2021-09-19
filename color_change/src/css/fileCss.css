@@ -1,0 +1,123 @@
+/* component colorPicker */
+.picker
+{
+    width : 400px;  
+    height: 100px;
+    background-color: rgb(197, 194, 194);
+    position:relative;
+    top: 100px;
+    left:100px;
+}
+
+.picker__title
+{
+    width: 100%;
+    height:30%;
+    background-color:blue;
+    position:absolute;
+    top:0px;
+    left:0;
+}
+
+.picker__title-name
+{
+    transform : translateY(-13px);
+    font-size:13px;
+    color:white;
+}
+
+.picker__content
+{
+    width:100%;
+    height:calc(100% - 30%);
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:  center;
+    position: absolute;
+    top:30px;
+}
+
+.picker__content-block1,.picker__content-block2,.picker__content-block3,.picker__content-block4
+{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+.picker__content-block1
+{
+    top:10px;
+    left:10px;
+    background-color:red;
+}
+
+.picker__content-block2
+{
+    top:10px;
+    left:70px;
+    background-color:blue;
+}
+
+.picker__content-block3
+{
+    top:10px;
+    left:130px;
+    background-color:green;
+}
+
+.picker__content-block4
+{
+    top:10px;
+    left:190px;
+    background-color: gray;
+}
+.active 
+{
+    border:3px solid black;
+}
+/* component tăng giảm IncDec*/
+
+.IncDec
+{
+    width : 250px;  
+    height: 70px;
+    background-color: rgb(197, 194, 194);
+    position:relative;
+    top: 0px;
+    left:600px;
+}
+
+.IncDec__title
+{
+    width: 100%;
+    height:30%;
+    background-color:blue;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+.IncDec__title-name
+{
+    transform : translateY(-13px);
+    font-size:11px;
+    color:white;
+}
+
+.IncDec__content
+{
+    position:absolute;
+    background-color: green;
+    width:100%;
+    height:calc(100% - 30%);
+    top: 20px;
+    left:0;
+}
+
+/* Css text */
+.text
+{
+   margin-top:50px;
+   padding-left:130px;
+}
